@@ -5,7 +5,7 @@ typedef struct node {
     int val;
     struct node * next;
 } node_t;
-
+// comment
 void print_list(node_t *head) {
   node_t *current = head;
   int nodeNUM = 0;
